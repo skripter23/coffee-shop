@@ -1,0 +1,21 @@
+.footer {
+	height: 150px;
+}
+
+.beans-logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.header-footer {
+	display: flex;
+	width: 100%;
+}
+
+.header-footer-div {
+	display: inline-block;
+	width: 650px;
+	margin: 0 auto;
+}

@@ -1,0 +1,50 @@
+.div-items {
+	display: flex;
+	justify-content: space-between;
+}
+
+.coffee-item {
+	width: 220px;
+	height: 240px;
+	background: rgba(255, 255, 255, 0.65);
+	filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+	border-radius: 8px;
+}
+
+.coffee-item img {
+	margin-top: 22px;
+	margin-left: 34px;
+	margin-right: 35px;
+}
+
+.coffee-about {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 14px;
+	margin-left: 21px;
+	margin-right: 21px;
+}
+
+.price {
+	margin: 10px 20px 22px 153px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.coffee-country {
+	/* margin: 10px 20px 0px 103px; */
+	margin-top: 10px;
+	padding-right: 30px;
+	text-align: end;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.coffee-item:hover {
+	cursor: pointer;
+	transition: 0.3s;
+	transform: scale(1.1);
+}

@@ -1,0 +1,135 @@
+.coffee-page-middle-text {
+	display: flex;
+	height: 480px;
+	justify-content: center;
+	text-align: center;
+}
+
+.coffee-page-middle-text-img {
+	margin-top: 70px;
+	margin-right: 157px;
+	width: 272px;
+	height: 355px;
+	background: url(./girl.png);
+}
+
+.coffee-page-middle {
+	margin-top: 79px;
+}
+
+.coffee-page-middle-about {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 35px;
+	margin-bottom: 20px;
+}
+
+.coffee-page-middle-text-paragraphs {
+	width: 346px;
+	height: 232px;
+	text-align: center;
+}
+
+.coffee-page-middle-text-line {
+	width: 240px;
+	height: 0px;
+	border: 1px solid black;
+	margin: 60px auto;
+}
+
+.coffee-page-middle-products {
+	height: 880px;
+}
+
+.coffee-page-search {
+	width: 283px;
+	height: 30px;
+	margin-top: 60px;
+	margin-right: 83px;
+}
+
+.coffee-page-search-filter {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.coffee-page-search span {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+
+	/* identical to box height */
+	text-align: center;
+	margin-right: 19px;
+}
+
+.coffee-page-search input {
+	background: #FFFFFF;
+	box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+	font-family: 'Merienda';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 17px;
+	/* identical to box height */
+	padding: 5px;
+	border: none;
+	text-align: center;
+
+
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.coffee-page-filter {
+	text-align: center;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+.coffee-page-buttons {
+	margin-left: 35px;
+}
+
+.coffee-page-buttons button {
+	width: 75px;
+	height: 30px;
+
+	background: #FFFFFF;
+	box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+	border-radius: 4px 0px 0px 4px;
+	border: none;
+	font-family: 'Merienda';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 17px;
+
+	/* identical to box height */
+	text-align: center;
+	margin-right: 5px;
+}
+
+.coffee-page-buttons button:hover {
+	transition: 0.3s;
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+.coffee-page-products {
+	height: 790px;
+}
+
+.coffee-page-products {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 60px auto;
+	width: 800px;
+	height: 352px;
+}
+
+.coffee-page-product {
+	margin-top: 60px;
+}

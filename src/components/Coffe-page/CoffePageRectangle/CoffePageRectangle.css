@@ -1,0 +1,15 @@
+.coffee-page-rectangle {
+	height: 260px;
+	background: url(./bgc_coffe_page.png);
+	background-size: 100%;
+	border: 1px solid transparent;
+}
+
+.coffee-page-rectangle-text {
+	text-align: center;
+	color: white;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 58px;
+	margin-top: 60px;
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+.App {
+	font-family: 'Merienda', cursive;
+	max-width: auto;
+	height: 1895px;
+	box-sizing: border-box;
+}
+
+.adaptive {
+	display: none;
+}
+
+.died-logo {
+	background: url(./died.png);
+	height: 50px;
+	width: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+.App {
+	display: none;
+}
+
+.adaptive {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Merienda', cursive;
+	justify-content: center;
+	align-items: center;
+	height: 800px;
+}
+}

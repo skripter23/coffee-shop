@@ -1,0 +1,44 @@
+/* Header styles */
+
+.header {
+	display: flex;
+	color: #FFFFFF;
+	width: 100%;
+	height: 40px;
+	margin: 30px 936px 0px 109px;
+	align-items: center;
+}
+
+/* LOGO STYLES */
+
+.logo {
+	display: flex;
+}
+
+
+.logo-text {
+	color: white;
+	margin-top: 15px;
+	margin-right: 30px;
+}
+
+/* BUTTON STYLES */
+
+.second-button {
+	margin-top: 15px;
+	margin-right: 30px;
+}
+
+.third-button {
+	margin-top: 15px;
+}
+
+/* HOVER */
+
+.logo:hover,
+.second-button:hover,
+.third-button:hover {
+	cursor: pointer;
+	transition: 0.3s;
+	transform: scale(1.1);
+}

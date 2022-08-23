@@ -1,0 +1,15 @@
+/* Rectangle Styles */
+
+.rectangle {
+	height: 640px;
+	background: #FFFFFF;
+}
+
+/* Bgc Image Styles */
+
+.bgc-image {
+	width: 100%;
+	background: url(./bgc_image.png) no-repeat;
+	background-size: 100%;
+	border-top: 1px solid transparent;
+}

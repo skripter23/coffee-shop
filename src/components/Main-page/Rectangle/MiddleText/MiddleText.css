@@ -1,0 +1,62 @@
+.middle-text {
+	text-align: center;
+	box-sizing: border-box;
+}
+
+/* CENTRAL TEXT */
+
+.central-text {
+	display: inline-block;
+	margin-top: 111px;
+	color:white;
+	width: 670px;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 58px;
+}
+
+/* BEANS LOGO */
+
+.beans_logo {
+	margin-top: 20px;
+}
+
+/* CENTRAL AFTER LOGO TEXT */
+
+.central-afterlogo-text {
+	display: inline-block;
+	margin: 0 auto;
+	color: white;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 35px;
+}
+
+.second {
+	margin-top: 20px;
+}
+
+/* MORE BUTTON */
+
+.more-button {
+	display: inline-block;
+	padding-top: 8px;
+	width: 120px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 18px;
+	color: white;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 20px;
+	border: 1px solid white;
+	border-radius: 3px;
+	margin-bottom: 201px;
+}
+
+.more-button:hover {
+	transition: 0.5s;
+	background-color: white;
+	color: grey;
+	cursor: pointer;
+}
